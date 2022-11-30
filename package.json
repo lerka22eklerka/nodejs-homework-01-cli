@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-homework-01-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon index",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lerka22eklerka/nodejs-homework-01-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lerka22eklerka/nodejs-homework-01-cli/issues"
+  },
+  "homepage": "https://github.com/lerka22eklerka/nodejs-homework-01-cli#readme",
+  "dependencies": {
+    "commander": "^9.4.1",
+    "nanoid": "^4.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
